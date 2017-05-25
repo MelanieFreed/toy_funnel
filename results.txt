@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+Group: Mobile  (# Customers = 10000)
+             # Total Customers Left % Total Customers Left % From Last Stage
+Open                           2511                  25.11             25.11
+Click                           480                   4.80             19.12
+AddToCart                        57                   0.57             11.88
+EnterPayment                     11                   0.11             19.30
+Purchase                          4                   0.04             36.36
+
+--------------------------------------------------------------------------------
+Group: Tablet  (# Customers = 5000)
+             # Total Customers Left % Total Customers Left % From Last Stage
+Open                           1496                  29.92             29.92
+Click                           560                  11.20             37.43
+AddToCart                        20                   0.40              3.57
+EnterPayment                      9                   0.18             45.00
+Purchase                          4                   0.08             44.44
+
+--------------------------------------------------------------------------------
+Group: Desktop  (# Customers = 7000)
+             # Total Customers Left % Total Customers Left % From Last Stage
+Open                           1037                  14.81             14.81
+Click                           406                   5.80             39.15
+AddToCart                        25                   0.36              6.16
+EnterPayment                     12                   0.17             48.00
+Purchase                          6                   0.09             50.00
+
