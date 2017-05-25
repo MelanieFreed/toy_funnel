@@ -68,7 +68,7 @@ class ToyFunnel():
 
         logging.info('Terminating due to error')
         tb = traceback.format_exc()
-        self._errors.append(self._error_generator.get_error(code, tb=tb))
+        self._errors.append(self._error_generator.get_error(code, traceback=tb))
 
 
         return

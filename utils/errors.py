@@ -18,10 +18,11 @@ class Errors():
         self._errors[3010] = "Number of customers from previous stage = 0"
 
 
-    def get_error(self, code, tb=None, details=None):
+    def get_error(self, code, traceback=None, details=None):
         """
-        Return error text for a given code
-        tb = traceback output
+        Return error text and additional information for a given code
+        traceback = traceback output
+        details = additional details about the error
         """
 
         if code in self._errors:
@@ -31,8 +32,8 @@ class Errors():
 
 
         error = {"code": code, "text": error_text}
-        if tb is not None:
-            error['traceback'] = tb
+        if traceback is not None:
+            error['traceback'] = traceback
         if details is not None:
             error['details'] = details
 

@@ -11,7 +11,7 @@ class Config():
         Initialize class
         """
 
-        # File to safe results
+        # File to save results
         self.file_results = './results.txt'
 
         # Specifications for how to generate simulated customer data
